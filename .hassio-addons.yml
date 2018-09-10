@@ -1,0 +1,8 @@
+---
+channel: stable
+addons:
+  test:
+    repository: hassio-addons/test
+    target: test
+    image: hassioaddons/test-{arch}
+  
